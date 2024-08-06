@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+/* .game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.ball-box {
+    border: 3px #000 solid;
+    border-radius: 10px;
+    width: 550px;
+    height: 500px;
+    margin-top: 30px;
+    background-color: rgb(230, 230, 230);
+    position: relative; /* Add this */
+}
+
+.ball {
+    width: 40px; /* Set width */
+    height: 40px; /* Set height */
+    background-color: red;
+    border-radius: 50%; /* Make it a circle */
+    position: relative;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    /* transform: translate(-50%, -50%);  */
+    cursor: pointer;
+}

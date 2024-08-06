@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+}
+
+.titulo{
+    align-items: center;
+
+}
+
+.titulo h1{
+    text-align: center;
+}
+
+.titulo nav  { 
+    
+    gap: 2rem;
+    
+}
