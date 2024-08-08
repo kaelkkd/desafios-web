@@ -1,3 +1,13 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(29, 19, 56);
+    
+}
+
+h1, h2, h3, p {
+    color: rgb(199, 190, 226);
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -19,23 +29,43 @@
 }
 
 .ball-box {
-    border: 3px #000 solid;
+    border: 3px #ffffff solid;
     border-radius: 10px;
     width: 550px;
     height: 500px;
     margin-top: 30px;
-    background-color: rgb(230, 230, 230);
-    position: relative; /* Add this */
+    background-color: rgb(199, 190, 226);
+    position: relative;
 }
 
 .ball {
-    width: 40px; /* Set width */
-    height: 40px; /* Set height */
-    background-color: red;
-    border-radius: 50%; /* Make it a circle */
-    position: relative;
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    /* transform: translate(-50%, -50%);  */
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
     cursor: pointer;
+    transition: opacity 0.1s;
+}
+
+#timer, #score {
+    display: flex;
+    gap: 10px;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+#start-game {
+    background-color: rgb(29, 19, 56);
+    border: 1px solid #fff; 
+    color: #fff;
+    padding: 10px 23px;
+    text-align: center;
+    text-decoration: none; 
+    font-size: 16px;
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+
+#start-game:hover {
+    background-color: rgb(53, 35, 102);
 }
