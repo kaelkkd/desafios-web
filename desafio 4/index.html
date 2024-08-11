@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Desafio 4</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="info">
+                <h1>Jogo da adivinhação</h1>
+                <ul>
+                    <li>Insira um número entre 0 e 20</li>
+                    <li>Você terá três tentativas para acertar o número</li>
+                </ul>
+            </div>
+            <div class="game-form">
+                <form onsubmit="verifyInput(event)">
+                    <label for="num">Insira o número:</label><br>
+                    <input type="number" id="num" name="num" value="0"><br><br>
+                    <input type="submit" value="Verificar" id="btn">
+                </form>
+                <span class="message" id="messageSpan"></span>
+                <br>
+                <span class="tries" id="triesSpan">Tentativas restantes: 3</span>
+            </div>
+        </div>
+        <script src="script.js" async defer></script>
+    </body>
+</html>

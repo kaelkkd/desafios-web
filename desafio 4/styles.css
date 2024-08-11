@@ -1,0 +1,77 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #34344e;
+    
+}
+h1, h2, h3 {
+    color: #fff;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+}
+.info h1 {
+    font-size: 40px;
+}
+
+.info ul {
+    color: #fff;
+}
+
+.game-form {
+    background-color: rgb(222, 222, 222);
+    padding: 3em;
+    border: 1px solid #dedede;
+    border-radius: 3%;
+    -webkit-box-shadow: 7px 7px 5px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 5px -3px rgba(0,0,0,0.75);
+    box-shadow: 7px 7px 5px -3px rgba(0,0,0,0.75);
+    width: 350px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-form span {
+    margin-top: 15px;
+}
+
+.game-form form, input, label, span {
+    background-color: rgb(222, 222, 222);
+}
+
+.tries {
+    margin-top: 12px;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+
+}
+
+#num {
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 4%;
+    padding: 3px 8px;
+}
+
+#btn {
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 8%;
+    padding: 3px 8px;
+    margin-left: 32%;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #bdbdbd;
+    transition: 0.3s;
+}
